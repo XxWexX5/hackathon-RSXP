@@ -1,7 +1,7 @@
 # hackathon_RSXP
 
 Execute o quiz:
-- Navegue para a pasta do quiz;
+- Navegue para a pasta do quiz/GameQuiz;
 - Execute yarn;
 - Execute yarn start;
 - E pronto!
