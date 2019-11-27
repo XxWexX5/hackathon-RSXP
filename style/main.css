@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani|Roboto&display=swap');
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Rajdhani', sans-serif;*/
+
+body {
+    font-size: 62.5%;
+}
+
+.min-100vh {
+    min-height: 100vh;
+}
+
+.column-top {
+    position: relative;
+    bottom: -20px;
+}
+
+.column-bottom {
+    position: relative;
+    top: -20px;
+}
+
+.link {
+    color: #79739A;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+    letter-spacing: .1em;
+    position: relative;
+    text-decoration: none; 
+    transition: all .5s;
+}
+
+@media screen and (max-width: 720px) {
+    .link {
+        text-align: center;
+        font-size: .7rem;
+        display: inherit;
+        padding: 5px;
+    }
+}
+
+.title {
+    line-height: 1.2;
+    font-size: 1.4rem;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
+    color: #8D6CA8;
+    margin: 0;
+}
+
+.title.font-title {
+    line-height: 1;
+    margin-bottom: 15px;
+    font-size: 2rem;    
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-family: 'Rajdhani', Arial, Helvetica, sans-serif;
+    line-height: .75;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.subtitle .highlighted {
+    font-size: 2.3rem;
+}
+
+.content {
+    font-size: 1rem;
+    line-height: 1.35em;
+    color: #706F99;
+}
+
+.link:after {
+    background-color: #FFFFFF;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -7px;
+    height: 2px;
+    width: 0;
+    margin: 0 auto;
+    transition: all .5s;
+}
+
+.link:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link:hover:after {
+    width: 100%;
+}
+
+#main header {
+    width: 100%;
+    background: #1d1933;
+}
+
+#main nav {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main nav .link + .link {
+    margin: 0 45px;
+}
+
+svg#planet {
+    width: 75px;
+}
+
+svg #planet_1 {
+    animation: 1.3s animation-move linear alternate infinite;
+}
+
+svg #planet_2 {
+    animation-delay: .5s;
+    animation: 1.3s animation-move-more linear alternate infinite;    
+}
+
+svg #planet_3 {
+    animation-delay: 1s;
+    animation: 1.3s animation-move-more linear alternate infinite;    
+}
+
+svg #planet_4 {
+    animation-delay: 1.5s;
+    animation: 1.3s animation-move-more linear alternate infinite;    
+}
+
+@keyframes animation-move {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 45px, 0);
+    }
+}
+
+@keyframes animation-move-more {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(3px, 45px, 30px);
+    }
+}
+
+svg#planet .st6 {
+    opacity:.7;
+    fill:#34205f
+}
+
+.begin {
+    background-color: #3A3460;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.inovation {
+    background-color: #FFFFFF;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.mind {
+    background-color: #3A3460;
+    width: 100%;
+    min-height: 100vh;    
+    text-align: center;
+}
+
+.mind .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.inovation .banner {
+    background-color: #3A3460;
+    padding: 35px 40px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.game {
+    background-image: url('../images/night.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -105px;
+    text-align: right;
+}
+
+.game .content {
+    max-width: 450px;
+}
+
+.game img {
+    border: 12px solid #3A3460;
+}
+
+.game .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+    padding: 35px 40px;
+}
+
+footer {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    background-color: #000205;
+    padding: 15px 20px;
+}
