@@ -15,18 +15,18 @@ Execute a ladding-page:
 1- O que levantamos
 
 Percebemos que há uma demanda por profissionais de TI e, que não há tanto interesse na área por vários motivos:
- a. Profissões tradicionais (medicina, engenharia, etc) ainda são modelo de sucesso na cultura.
- b. Pouca de informação em relação as carreiras de TI
- c. Duvida se TI é uma carreira que dá dinheiro, conforto e segurança
- d. Pecha de TI ser carreira de nerd, de pessoa que nao se socializa, que só fica na frente do computador
+ - Profissões tradicionais (medicina, engenharia, etc) ainda são modelo de sucesso na cultura.
+ - Pouca de informação em relação as carreiras de TI
+ - Duvida se TI é uma carreira que dá dinheiro, conforto e segurança
+ - Pecha de TI ser carreira de nerd, de pessoa que nao se socializa, que só fica na frente do computador
 
 2- Nossa solucao
 
 Vamos desenvolver um portal, aonde seduziremos o jovem à se interessar pela carreira de TI, através de:
- a. Entrevistas com pessoas de sucesso na área,
- b. Melhorias que TI trouxe para a vida do homem
- c. Range de salários
- d. Jogo que ensina TI para o internauta
+ - Entrevistas com pessoas de sucesso na área,
+ - Melhorias que TI trouxe para a vida do homem
+ - Range de salários
+ - Jogo que ensina TI para o internauta
  
 3- Do jogo
 
