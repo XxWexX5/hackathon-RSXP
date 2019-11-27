@@ -104,7 +104,7 @@ body {
 }
 
 #main nav {
-    height: 12vh;
+    height: 13vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -165,7 +165,13 @@ svg#planet .st6 {
 .begin {
     background-color: #3A3460;
     width: 100%;
-    min-height: 90vh;
+    min-height: 87vh;
+}
+
+.begin ul {
+    padding: 0;
+    margin-left: 20px;
+    color: #8D6CA8;    
 }
 
 .inovation {
