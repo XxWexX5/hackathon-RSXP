@@ -163,15 +163,22 @@ svg#planet .st6 {
 }
 
 .begin {
-    background-color: #3A3460;
+    background-image: url('../images/bg-space.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 100%;
     min-height: 87vh;
+}
+.begin::after {
+    content: '';
+    background-color: rgb(11,0,37); 
+    opacity: 0.4;
 }
 
 .begin ul {
     padding: 0;
     margin-left: 20px;
-    color: #8D6CA8;    
+    color: #8D6CA8;
 }
 
 .inovation {
